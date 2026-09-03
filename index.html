@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="escuro">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfólio de Guilherme, estudante de Análise e Desenvolvimento de Sistemas.">
+    <title>Guilherme | Portfólio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="luz-mouse" id="luz-mouse"></div>
+    <!-- Cabeçalho -->
+    <header class="cabecalho" id="cabecalho">
+        <nav class="navbar container">
+
+            <a href="#inicio" class="logo">
+                Guilherme<span>.dev</span>
+            </a>
+
+            <button class="botao-menu" id="botao-menu" aria-label="Abrir menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <ul class="menu" id="menu">
+                <li><a href="#inicio" class="menu-link ativo">Início</a></li>
+                <li><a href="#sobre" class="menu-link">Sobre mim</a></li>
+                <li><a href="#habilidades" class="menu-link">Habilidades</a></li>
+                <li><a href="#projetos" class="menu-link">Projetos</a></li>
+                <li><a href="#formacao" class="menu-link">Formação</a></li>
+                <li><a href="#contato" class="menu-link">Contato</a></li>
+
+                <li>
+                    <button class="botao-tema" id="botao-tema" aria-label="Ativar tema claro" title="Mudar tema">
+                        ☀️
+                    </button>
+                </li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Início -->
+        <section class="inicio" id="inicio">
+            <div class="inicio-conteudo container">
+
+                <div class="inicio-texto">
+                    <p class="apresentacao">Olá, eu sou</p>
+
+                    <h1>Guilherme Inácio</h1>
+
+                    <h2>
+                        Estudante de
+                        <span id="texto-dinamico">Desenvolvimento Web</span>
+                    </h2>
+
+                    <p class="inicio-descricao">
+                        Estudante de Análise e Desenvolvimento de Sistemas,
+                        interessado em desenvolvimento de software, redes e
+                        segurança da informação.
+                    </p>
+
+                    <div class="inicio-botoes">
+                        <a href="#projetos" class="botao botao-principal">
+                            Ver projetos
+                        </a>
+
+                        <a href="#contato" class="botao botao-secundario">
+                            Entrar em contato
+                        </a>
+                    </div>
+
+                    <div class="redes-sociais">
+                        <a href="https://github.com/guilherm007" target="_blank" rel="noopener noreferrer">
+                            GitHub
+                        </a>
+
+                        <!-- Troque pelo endereço do seu LinkedIn -->
+                        <a href="https://www.linkedin.com/in/guilherme-in%C3%A1cio-ramalho/" target="_blank"
+                            rel="noopener noreferrer">
+                            LinkedIn
+                        </a>
+                    </div>
+                </div>
+
+                <div class="inicio-visual">
+                    <div class="foto-container">
+
+                        <div class="foto-borda">
+                            <img src="images/foto-perfil.jpg" alt="Foto de Guilherme" class="foto-perfil">
+                        </div>
+
+                        <span class="foto-etiqueta etiqueta-tecnologias">
+                            HTML • CSS • JavaScript
+                        </span>
+
+                        <span class="foto-etiqueta etiqueta-oportunidade">
+                            Disponível para oportunidades
+                        </span>
+
+                    </div>
+                </div>
+            </div>
+
+            </div>
+
+            <a href="#sobre" class="rolar-pagina" aria-label="Ir para Sobre mim">
+                ↓
+            </a>
+        </section>
+
+        <!-- Sobre mim -->
+        <section class="secao sobre" id="sobre">
+            <div class="container">
+
+                <div class="titulo-secao reveal">
+                    <p>Conheça um pouco</p>
+                    <h2>Sobre mim</h2>
+                </div>
+
+                <div class="sobre-conteudo">
+
+                    <div class="sobre-texto reveal">
+                        <p>
+                            Sou formado em Tecnologia da Informação pelo SENAC
+                            e atualmente curso Análise e Desenvolvimento de
+                            Sistemas.
+                        </p>
+
+                        <p>
+                            Durante minha formação, desenvolvi projetos utilizando
+                            HTML, CSS, JavaScript, Bootstrap, PHP e bancos de dados.
+                            Também adquiri conhecimentos em manutenção de
+                            computadores e redes.
+                        </p>
+
+                        <p>
+                            Busco minha primeira oportunidade profissional na área
+                            de tecnologia, onde possa aplicar meus conhecimentos,
+                            aprender com novos desafios e continuar evoluindo.
+                        </p>
+                    </div>
+
+                    <div class="sobre-informacoes reveal">
+
+                        <article class="informacao-card">
+                            <span>01</span>
+                            <h3>Desenvolvimento</h3>
+                            <p>Criação de páginas e sistemas para web.</p>
+                        </article>
+
+                        <article class="informacao-card">
+                            <span>02</span>
+                            <h3>Banco de dados</h3>
+                            <p>Modelagem, consultas e armazenamento de dados.</p>
+                        </article>
+
+                        <article class="informacao-card">
+                            <span>03</span>
+                            <h3>Redes e suporte</h3>
+                            <p>Conhecimentos em computadores e redes.</p>
+                        </article>
+
+                        <article class="informacao-card">
+                            <span>04</span>
+                            <h3>Aprendizado</h3>
+                            <p>Interesse constante em novas tecnologias.</p>
+                        </article>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Habilidades -->
+        <section class="secao habilidades" id="habilidades">
+            <div class="container">
+
+                <div class="titulo-secao reveal">
+                    <p>Meus conhecimentos</p>
+                    <h2>Habilidades</h2>
+                </div>
+
+                <div class="habilidades-grid">
+
+                    <article class="habilidade-card reveal">
+                        <div class="habilidade-icone">&lt;/&gt;</div>
+                        <h3>HTML</h3>
+                        <p>Estruturação semântica e acessível de páginas web.</p>
+                    </article>
+
+                    <article class="habilidade-card reveal">
+                        <div class="habilidade-icone">#</div>
+                        <h3>CSS</h3>
+                        <p>Layouts modernos, responsivos e animações.</p>
+                    </article>
+
+                    <article class="habilidade-card reveal">
+                        <div class="habilidade-icone">JS</div>
+                        <h3>JavaScript</h3>
+                        <p>Interatividade, eventos e manipulação de elementos.</p>
+                    </article>
+
+                    <article class="habilidade-card reveal">
+                        <div class="habilidade-icone">B</div>
+                        <h3>Bootstrap</h3>
+                        <p>Criação rápida de interfaces responsivas.</p>
+                    </article>
+
+                    <article class="habilidade-card reveal">
+                        <div class="habilidade-icone">PHP</div>
+                        <h3>PHP</h3>
+                        <p>Desenvolvimento de sistemas web e integração com banco.</p>
+                    </article>
+
+                    <article class="habilidade-card reveal">
+                        <div class="habilidade-icone">SQL</div>
+                        <h3>Banco de dados</h3>
+                        <p>MySQL, modelagem de dados e consultas SQL.</p>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Projetos -->
+        <section class="secao projetos" id="projetos">
+            <div class="container">
+
+                <div class="titulo-secao reveal">
+                    <p>O que já desenvolvi</p>
+                    <h2>Meus projetos</h2>
+                </div>
+
+                <div class="projetos-carrossel">
+
+                    <div class="projetos-grid" id="carrossel-projetos">
+
+                        <!-- StepX -->
+                        <article class="projeto-card reveal">
+                            <div class="projeto-capa capa-stepx">
+                                <span>StepX</span>
+                            </div>
+
+                            <div class="projeto-conteudo">
+                                <p class="projeto-tipo">E-commerce</p>
+
+                                <h3>StepX — Loja de tênis</h3>
+
+                                <p>
+                                    Loja virtual responsiva com catálogo de produtos,
+                                    login, cadastro, filtros e banco de dados.
+                                </p>
+
+                                <div class="tecnologias">
+                                    <span>HTML</span>
+                                    <span>CSS</span>
+                                    <span>JavaScript</span>
+                                    <span>PHP</span>
+                                    <span>MySQL</span>
+                                </div>
+
+                                <p class="projeto-indisponivel">
+                                    Projeto ainda não publicado
+                                </p>
+                            </div>
+                        </article>
+
+
+                        <!-- To-Do List -->
+                        <article class="projeto-card reveal">
+                            <div class="projeto-capa capa-todo">
+                                <span>To-Do List</span>
+                            </div>
+
+                            <div class="projeto-conteudo">
+                                <p class="projeto-tipo">Aplicação web</p>
+
+                                <h3>Lista de tarefas</h3>
+
+                                <p>
+                                    Aplicação para cadastrar, concluir e remover
+                                    tarefas de maneira simples e organizada.
+                                </p>
+
+                                <div class="tecnologias">
+                                    <span>HTML</span>
+                                    <span>CSS</span>
+                                    <span>JavaScript</span>
+                                </div>
+
+                                <a href="https://guilherm007.github.io/to-do-list-ia/" target="_blank"
+                                    rel="noopener noreferrer" class="link-projeto">
+                                    Ver projeto →
+                                </a>
+                            </div>
+                        </article>
+
+
+                        <!-- Sistema CRUD -->
+                        <article class="projeto-card reveal">
+                            <div class="projeto-capa capa-sistema">
+                                <span>Sistema CRUD</span>
+                            </div>
+
+                            <div class="projeto-conteudo">
+                                <p class="projeto-tipo">Sistema web</p>
+
+                                <h3>Sistema de ferragem</h3>
+
+                                <p>
+                                    Sistema com login e gerenciamento de usuários,
+                                    produtos, categorias, fornecedores e movimentações.
+                                </p>
+
+                                <div class="tecnologias">
+                                    <span>PHP</span>
+                                    <span>MySQL</span>
+                                    <span>Bootstrap</span>
+                                </div>
+
+                                <p class="projeto-indisponivel">
+                                    Projeto ainda não publicado
+                                </p>
+                            </div>
+                        </article>
+
+
+                        <!-- Hora do Dia -->
+                        <article class="projeto-card reveal">
+                            <div class="projeto-capa capa-hora">
+                                <span>Hora do Dia</span>
+                            </div>
+
+                            <div class="projeto-conteudo">
+                                <p class="projeto-tipo">Aplicação web</p>
+
+                                <h3>Hora do Dia</h3>
+
+                                <p>
+                                    Página que identifica o horário atual e altera
+                                    automaticamente a mensagem, a imagem e as cores
+                                    de acordo com o período do dia.
+                                </p>
+
+                                <div class="tecnologias">
+                                    <span>HTML</span>
+                                    <span>CSS</span>
+                                    <span>JavaScript</span>
+                                </div>
+
+                                <div class="projeto-links">
+                                    <a href="https://guilherm007.github.io/hora-do-dia/" target="_blank"
+                                        rel="noopener noreferrer" class="link-projeto">
+                                        Ver projeto →
+                                    </a>
+
+                                    <a href="https://github.com/guilherm007/Hora-do-dia" target="_blank"
+                                        rel="noopener noreferrer" class="link-codigo">
+                                        Ver código
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                    </div>
+
+                    <!-- Controles do carrossel -->
+                    <div class="carrossel-controles">
+
+                        <button class="carrossel-botao" id="projeto-anterior" aria-label="Mostrar projeto anterior">
+                            🡨
+                        </button>
+
+                        <button class="carrossel-botao" id="proximo-projeto" aria-label="Mostrar próximo projeto">
+                            🡪
+                        </button>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Formação -->
+        <section class="secao formacao" id="formacao">
+            <div class="container">
+
+                <div class="titulo-secao reveal">
+                    <p>Minha trajetória</p>
+                    <h2>Formação e cursos</h2>
+                </div>
+
+                <div class="linha-tempo">
+
+                    <article class="formacao-item reveal">
+                        <div class="formacao-marcador"></div>
+
+                        <div class="formacao-card">
+                            <p class="formacao-tipo">Graduação</p>
+                            <h3>Análise e Desenvolvimento de Sistemas</h3>
+                            <p>Universidade Cruzeiro do Sul</p>
+                            <span>Em andamento</span>
+                        </div>
+                    </article>
+
+                    <article class="formacao-item reveal">
+                        <div class="formacao-marcador"></div>
+
+                        <div class="formacao-card">
+                            <p class="formacao-tipo">Formação profissional</p>
+                            <h3>Tecnologia da Informação</h3>
+                            <p>SENAC Guarulhos</p>
+                            <span>Concluído</span>
+                        </div>
+                    </article>
+
+                    <article class="formacao-item reveal">
+                        <div class="formacao-marcador"></div>
+
+                        <div class="formacao-card">
+                            <p class="formacao-tipo">Curso complementar</p>
+                            <h3>Cybersecurity Essentials</h3>
+                            <p>Cisco Networking Academy</p>
+                            <span>Concluído</span>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Contato -->
+        <section class="secao contato" id="contato">
+            <div class="container">
+
+                <div class="contato-card reveal">
+                    <div>
+                        <p class="contato-destaque">Vamos conversar?</p>
+
+                        <h2>Estou buscando oportunidades na área de TI.</h2>
+
+                        <p>
+                            Entre em contato comigo pelo LinkedIn, GitHub ou e-mail.
+                        </p>
+                    </div>
+
+                    <div class="contato-links">
+                        <!-- Substitua pelos números do seu telefone -->
+                        <a href="https://wa.me/5511954421553" target="_blank" rel="noopener noreferrer"
+                            class="botao botao-principal">
+                            WhatsApp: (11) 9 54421-553
+                        </a>
+
+                        <!-- Coloque seu e-mail -->
+                        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=guilherme95442@gmail.com&su=Contato pelo portfólio&body=Olá Guilherme, vi seu portfólio e gostaria de conversar."
+                            target="_blank" rel="noopener noreferrer" class="botao botao-secundario">
+                            Enviar e-mail
+                        </a>
+
+                        <a href="https://github.com/guilherm007" target="_blank" rel="noopener noreferrer"
+                            class="botao botao-secundario">
+                            Acessar GitHub
+                        </a>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="rodape">
+        <div class="container rodape-conteudo">
+            <p>
+                Desenvolvido por Guilherme ©
+                <span id="ano-atual"></span>
+            </p>
+
+            <a href="#inicio">Voltar ao início ↑</a>
+        </div>
+    </footer>
+
+    <button class="voltar-topo" id="voltar-topo" aria-label="Voltar ao topo">
+        🡅
+    </button>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
