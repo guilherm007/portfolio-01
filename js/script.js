@@ -101,7 +101,7 @@ elementosReveal.forEach((elemento) => {
 const palavras = [
     "Desenvolvimento Web",
     "Redes de Computadores",
-    "Manutenção de computadores"
+    "Manutanção de Computadores"
 ];
 
 let indicePalavra = 0;
