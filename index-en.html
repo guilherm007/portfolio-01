@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="escuro">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Guilherme, a Systems Analysis and Development student.">
+    <title>Guilherme | Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="luz-mouse" id="luz-mouse"></div>
+    <!-- Header -->
+    <header class="cabecalho" id="cabecalho">
+        <nav class="navbar container">
+
+            <a href="#inicio" class="logo">
+                Guilherme<span>.dev</span>
+            </a>
+
+            <button class="botao-menu" id="botao-menu" aria-label="Open menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <ul class="menu" id="menu">
+                <li><a href="#inicio" class="menu-link ativo">Home</a></li>
+                <li><a href="#sobre" class="menu-link">About me</a></li>
+                <li><a href="#habilidades" class="menu-link">Skills</a></li>
+                <li><a href="#projetos" class="menu-link">Projects</a></li>
+                <li><a href="#formacao" class="menu-link">Education</a></li>
+                <li><a href="#contato" class="menu-link">Contact</a></li>
+                 <li class="seletor-idioma">
+                <a href="index.html" class="idioma ativo-idioma"
+                   lang="pt-BR" aria-label="Português">PT</a>
+
+                <span class="separador-idioma">|</span>
+
+                <a href="index-en.html" class="idioma"
+                   lang="en" aria-label="English">EN</a>
+            </li>
+
+                <li>
+                    <button class="botao-tema" id="botao-tema" aria-label="Switch to light theme" title="Change theme">
+                        ☀️
+                    </button>
+                </li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Home -->
+        <section class="inicio" id="inicio">
+            <div class="inicio-conteudo container">
+
+                <div class="inicio-texto">
+                    <p class="apresentacao">Hello, I am</p>
+
+                    <h1>Guilherme Inácio</h1>
+
+                    <h2>
+                        Student of
+                        <span id="texto-dinamico">Web Development</span>
+                    </h2>
+
+                    <p class="inicio-descricao">
+                        Student of Systems Analysis and Development,
+                        interested in software development, networking, and
+                        information security.
+                    </p>
+
+                    <div class="inicio-botoes">
+                        <a href="#projetos" class="botao botao-principal">
+                            View projects
+                        </a>
+
+                        <a href="#contato" class="botao botao-secundario">
+                            Get in touch
+                        </a>
+                    </div>
+
+                    <div class="redes-sociais">
+                        <a href="https://github.com/guilherm007" target="_blank" rel="noopener noreferrer">
+                            GitHub
+                        </a>
+
+                        <!-- Troque pelo endereço do seu LinkedIn -->
+                        <a href="https://www.linkedin.com/in/guilherme-in%C3%A1cio-ramalho/" target="_blank"
+                            rel="noopener noreferrer">
+                            LinkedIn
+                        </a>
+                    </div>
+                </div>
+
+                <div class="inicio-visual">
+                    <div class="foto-container">
+
+                        <div class="foto-borda">
+                            <img src="images/foto-perfil.jpg" alt="Foto de Guilherme" class="foto-perfil">
+                        </div>
+
+                        <span class="foto-etiqueta etiqueta-tecnologias">
+                            HTML • CSS • JavaScript
+                        </span>
+
+                        <span class="foto-etiqueta etiqueta-oportunidade">
+                            Open to opportunities
+                        </span>
+
+                    </div>
+                </div>
+            </div>
+
+            </div>
+
+            <a href="#sobre" class="rolar-pagina" aria-label="Go to About me">
+                ↓
+            </a>
+        </section>
+
+        <!-- About me -->
+        <section class="secao sobre" id="sobre">
+            <div class="container">
+
+                <div class="titulo-secao reveal">
+                    <p>Get to know me</p>
+                    <h2>Sobre mim</h2>
+                </div>
+
+                <div class="sobre-conteudo">
+
+                    <div class="sobre-texto reveal">
+                        <p>
+                            I graduated in Information Technology from SENAC
+                            and I am currently studying Systems Analysis and
+                            Development.
+                        </p>
+
+                        <p>
+                            During my studies, I have developed projects using
+                            HTML, CSS, JavaScript, Bootstrap, PHP, and databases.
+                            I have also gained knowledge in computer maintenance
+                            and networking.
+                        </p>
+
+                        <p>
+                            I am looking for my first professional opportunity in tech,
+                            where I can apply my knowledge,
+                            learn from new challenges, and continue to grow.
+                        </p>
+                    </div>
+
+                    <div class="sobre-informacoes reveal">
+
+                        <article class="informacao-card">
+                            <span>01</span>
+                            <h3>Development</h3>
+                            <p>Building web pages and applications.</p>
+                        </article>
+
+                        <article class="informacao-card">
+                            <span>02</span>
+                            <h3>Databases</h3>
+                            <p>Data modeling, queries, and data storage.</p>
+                        </article>
+
+                        <article class="informacao-card">
+                            <span>03</span>
+                            <h3>Networking and Support</h3>
+                            <p>Conhecimentos em and networking.</p>
+                        </article>
+
+                        <article class="informacao-card">
+                            <span>04</span>
+                            <h3>Learning</h3>
+                            <p>Always interested in learning new technologies.</p>
+                        </article>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section class="secao habilidades" id="habilidades">
+            <div class="container">
+
+                <div class="titulo-secao reveal">
+                    <p>My knowledge</p>
+                    <h2>Skills</h2>
+                </div>
+
+                <div class="habilidades-grid">
+
+                    <article class="habilidade-card reveal">
+                        <div class="habilidade-icone">&lt;/&gt;</div>
+                        <h3>HTML</h3>
+                        <p>Semantic and accessible web page structure.</p>
+                    </article>
+
+                    <article class="habilidade-card reveal">
+                        <div class="habilidade-icone">#</div>
+                        <h3>CSS</h3>
+                        <p>Modern, responsive layouts and animations.</p>
+                    </article>
+
+                    <article class="habilidade-card reveal">
+                        <div class="habilidade-icone">JS</div>
+                        <h3>JavaScript</h3>
+                        <p>Interactivity, events, and DOM manipulation.</p>
+                    </article>
+
+                    <article class="habilidade-card reveal">
+                        <div class="habilidade-icone">B</div>
+                        <h3>Bootstrap</h3>
+                        <p>Rapid development of responsive interfaces.</p>
+                    </article>
+
+                    <article class="habilidade-card reveal">
+                        <div class="habilidade-icone">PHP</div>
+                        <h3>PHP</h3>
+                        <p>Web application development and database integration.</p>
+                    </article>
+
+                    <article class="habilidade-card reveal">
+                        <div class="habilidade-icone">SQL</div>
+                        <h3>Databases</h3>
+                        <p>MySQL, data modeling, and SQL queries.</p>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section class="secao projetos" id="projetos">
+            <div class="container">
+
+                <div class="titulo-secao reveal">
+                    <p>What I have built</p>
+                    <h2>My Projects</h2>
+                </div>
+
+                <div class="projetos-carrossel">
+
+                    <div class="projetos-grid" id="carrossel-projetos">
+
+                        <!-- StepX -->
+                        <article class="projeto-card reveal">
+                            <div class="projeto-capa capa-stepx">
+                                <span>StepX</span>
+                            </div>
+
+                            <div class="projeto-conteudo">
+                                <p class="projeto-tipo">E-commerce</p>
+
+                                <h3>StepX — Sneaker Store</h3>
+
+                                <p>
+                                    Responsive online store with a product catalog,
+                                    login, registration, filters, and a database.
+                                </p>
+
+                                <div class="tecnologias">
+                                    <span>HTML</span>
+                                    <span>CSS</span>
+                                    <span>JavaScript</span>
+                                    <span>PHP</span>
+                                    <span>MySQL</span>
+                                </div>
+
+                                <p class="projeto-indisponivel">
+                                    Project not published yet
+                                </p>
+                            </div>
+                        </article>
+
+
+                        <!-- To-Do List -->
+                        <article class="projeto-card reveal">
+                            <div class="projeto-capa capa-todo">
+                                <span>To-Do List</span>
+                            </div>
+
+                            <div class="projeto-conteudo">
+                                <p class="projeto-tipo">Web Application</p>
+
+                                <h3>To-Do List</h3>
+
+                                <p>
+                                    An app to add, complete, and remove
+                                    tasks in a simple, organized way.
+                                </p>
+
+                                <div class="tecnologias">
+                                    <span>HTML</span>
+                                    <span>CSS</span>
+                                    <span>JavaScript</span>
+                                </div>
+
+                                <a href="https://guilherm007.github.io/to-do-list-ia/" target="_blank"
+                                    rel="noopener noreferrer" class="link-projeto">
+                                    View project →
+                                </a>
+                            </div>
+                        </article>
+
+
+                        <!-- Sistema CRUD -->
+                        <article class="projeto-card reveal">
+                            <div class="projeto-capa capa-sistema">
+                                <span>Sistema CRUD</span>
+                            </div>
+
+                            <div class="projeto-conteudo">
+                                <p class="projeto-tipo">Web System</p>
+
+                                <h3>Hardware Store System</h3>
+
+                                <p>
+                                    System with login and management of users,
+                                    products, categories, suppliers, and transactions.
+                                </p>
+
+                                <div class="tecnologias">
+                                    <span>PHP</span>
+                                    <span>MySQL</span>
+                                    <span>Bootstrap</span>
+                                </div>
+
+                                <p class="projeto-indisponivel">
+                                    Project not published yet
+                                </p>
+                            </div>
+                        </article>
+
+
+                        <!-- Hora do Dia -->
+                        <article class="projeto-card reveal">
+                            <div class="projeto-capa capa-hora">
+                                <span>Hora do Dia</span>
+                            </div>
+
+                            <div class="projeto-conteudo">
+                                <p class="projeto-tipo">Web Application</p>
+
+                                <h3>Hora do Dia</h3>
+
+                                <p>
+                                    A page that detects the current time and automatically changes
+                                    the message, image, and colors
+                                    according to the time of day.
+                                </p>
+
+                                <div class="tecnologias">
+                                    <span>HTML</span>
+                                    <span>CSS</span>
+                                    <span>JavaScript</span>
+                                </div>
+
+                                <div class="projeto-links">
+                                    <a href="https://guilherm007.github.io/hora-do-dia/" target="_blank"
+                                        rel="noopener noreferrer" class="link-projeto">
+                                        View project →
+                                    </a>
+
+                                    <a href="https://github.com/guilherm007/Hora-do-dia" target="_blank"
+                                        rel="noopener noreferrer" class="link-codigo">
+                                        View code
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                    </div>
+
+                    <!-- Controles do carrossel -->
+                    <div class="carrossel-controles">
+
+                        <button class="carrossel-botao" id="projeto-anterior" aria-label="Show previous project">
+                            🡨
+                        </button>
+
+                        <button class="carrossel-botao" id="proximo-projeto" aria-label="Show next project">
+                            🡪
+                        </button>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Education -->
+        <section class="secao formacao" id="formacao">
+            <div class="container">
+
+                <div class="titulo-secao reveal">
+                    <p>My journey</p>
+                    <h2>Education and Courses</h2>
+                </div>
+
+                <div class="linha-tempo">
+
+                    <article class="formacao-item reveal">
+                        <div class="formacao-marcador"></div>
+
+                        <div class="formacao-card">
+                            <p class="formacao-tipo">Degree</p>
+                            <h3>Systems Analysis and Development</h3>
+                            <p>Universidade Cruzeiro do Sul</p>
+                            <span>In progress</span>
+                        </div>
+                    </article>
+
+                    <article class="formacao-item reveal">
+                        <div class="formacao-marcador"></div>
+
+                        <div class="formacao-card">
+                            <p class="formacao-tipo">Professional Training</p>
+                            <h3>Information Technology</h3>
+                            <p>SENAC Guarulhos</p>
+                            <span>Completed</span>
+                        </div>
+                    </article>
+
+                    <article class="formacao-item reveal">
+                        <div class="formacao-marcador"></div>
+
+                        <div class="formacao-card">
+                            <p class="formacao-tipo">Additional Course</p>
+                            <h3>Cybersecurity Essentials</h3>
+                            <p>Cisco Networking Academy</p>
+                            <span>Completed</span>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section class="secao contato" id="contato">
+            <div class="container">
+
+                <div class="contato-card reveal">
+                    <div>
+                        <p class="contato-destaque">Let’s talk?</p>
+
+                        <h2>I am looking for opportunities in IT.</h2>
+
+                        <p>
+                            Contact me via LinkedIn, GitHub, or email.
+                        </p>
+                    </div>
+
+                    <div class="contato-links">
+                        <!-- Substitua pelos números do seu telefone -->
+                        <a href="https://wa.me/5511954421553" target="_blank" rel="noopener noreferrer"
+                            class="botao botao-principal">
+                            WhatsApp: (11) 9 54421-553
+                        </a>
+
+                        <!-- Coloque seu e-mail -->
+                        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=guilherme95442@gmail.com&su=Portfolio inquiry&body=Hello Guilherme, I saw your portfolio and would like to get in touch."
+                            target="_blank" rel="noopener noreferrer" class="botao botao-secundario">
+                            Send email
+                        </a>
+
+                        <a href="https://github.com/guilherm007" target="_blank" rel="noopener noreferrer"
+                            class="botao botao-secundario">
+                            Visit GitHub
+                        </a>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="rodape">
+        <div class="container rodape-conteudo">
+            <p>
+                Developed by Guilherme ©
+                <span id="ano-atual"></span>
+            </p>
+
+            <a href="#inicio">Back to top ↑</a>
+        </div>
+    </footer>
+
+    <button class="voltar-topo" id="voltar-topo" aria-label="Back to top">
+        🡅
+    </button>
+
+    <script src="js/script-en.js"></script>
+</body>
+
+</html>
